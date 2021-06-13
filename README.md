@@ -1,4 +1,4 @@
-# This is an example Lean 4 package using the [Graph library](https://github.com/PeterKementzey/graph-library-for-lean4)
+# This is an example Lean 4 package using the [Graph library](https://github.com/PeterKementzey/graph-library-for-lean4) I made
 
 Find the library [here](https://github.com/PeterKementzey/graph-library-for-lean4)
 
