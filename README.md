@@ -2,7 +2,7 @@
 
 Find the library [here](https://github.com/PeterKementzey/graph-library-for-lean4)
 
-Since building and running dependent libraries in Lean 4 has to be done manually, this example is intended to help you get started.
+Since building and running dependent libraries in Lean 4 has to be done manually, this example is intended to help you get started. See more about building dependent libraries by running `leanpkg help build`.
 
 ## Prerequisites
 
