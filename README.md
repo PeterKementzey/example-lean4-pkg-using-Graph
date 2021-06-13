@@ -12,7 +12,7 @@ Install the basic install of Lean 4 using elan following [this guide](https://le
 
 ## Building
 
-To get the dependency and build the library run `./build.sh`. You may want to change which version of the library you want to use on line 5 of `build.sh` by changing the commit hash to the desired version.
+To get the dependency and build the library run `./build.sh`. You may want to change which version of the library you want to use on line 5 of `build.sh` by changing the commit hash to the desired version. If you change the commit hash to a newer version make sure to run `./cleanmore.sh` before building again.
 
 ## Running
 
