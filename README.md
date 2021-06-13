@@ -16,8 +16,12 @@ To get the dependency and build the library run `./build.sh`. You may want to ch
 
 ## Running
 
-To run the built binary run `./run.sh`.
+To run the built binary run `./run.sh`. If you make your own project with a different name, you will have to change the name of the executable in the script.
 
 ## Cleaning
 
 `./clean.sh` will remove the build files, `./cleanmore.sh` will also remove the dependency.
+
+## Visual Studio Code
+
+If you want to use the Visual Studio Code Lean 4 extension make sure to open the root directory of this project as a folder and run the build script at least once for the dependency to be correctly recognized. After that you can run the `Lean 4: Restart Server` VS Code command to load the dependency.
