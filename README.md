@@ -6,8 +6,6 @@ Find the library [here](https://github.com/PeterKementzey/graph-library-for-lean
 
 Since building and running dependent libraries in Lean 4 has to be done manually, this example is intended to help you get started. You can inspect the scripts in this repository to see how you can compile and run Lean 4 packages that have a dependency, there are also scripts showing which files you should remove to start a clean build. See more about building dependent libraries by running `leanpkg help build`.
 
-*Please note that due to an error in Lean 4 the use of breadth-first search or other algorithms using it may cause an out of bounds error at the start of runtime. This is a [known bug in Lean](https://github.com/leanprover/lean4/issues/534) that will hopefully get fixed soon. Until then you can place this line of code above your main function to fix it: `set_option compiler.extract_closed false in`*
-
 ## Prerequisites
 
 Install the basic install of Lean 4 using elan following [this guide](https://leanprover.github.io/lean4/doc/setup.html#basic-setup).
